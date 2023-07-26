@@ -20,6 +20,7 @@
     color: #555;
   } */
   
+
 .button{
     border-radius: 35px;
     width: 35px;
@@ -29,9 +30,15 @@
     justify-content: space-around;
     padding-left: 5px;
     margin: 5px;
-
-
 }  
+
+.card{
+  overflow-y: hidden;
+}
+
+.title{
+  overflow-y: hidden;
+}
 
 .box{
   width: 100vw;
@@ -45,8 +52,9 @@
     align-items: center;
 
   }
-  
 }
+
+
 
 
 
