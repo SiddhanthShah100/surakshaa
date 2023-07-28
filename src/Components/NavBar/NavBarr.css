@@ -22,9 +22,10 @@
     align-items: center;
     min-height: 10vh;
     font-family: 'Arial', sans-serif;
-    background-color: #292929;
+    background-color: #29292963;
     z-index: 100;
     width: 100vw;
+
     
   }
   
@@ -84,3 +85,27 @@
   ul.nav-links{
     margin-top: 10px;
   }
+
+
+  .download-btn {
+    display: inline-block;
+    background-color: #ba9aca;
+    color: white;
+    padding: 4px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-position: 0 100%;
+    transition: background-position 0.4s;
+  }
+
+  .download-btn:hover {
+    background-color: #8a5a8c;
+  }
+  
+  
+  
+  
